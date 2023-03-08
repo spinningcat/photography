@@ -1,0 +1,147 @@
+*{
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}
+html, body{
+  overflow: none;
+  width:100%;
+
+  
+}
+.container{
+
+  display:-webkit-box;
+
+  display:-ms-flexbox;
+
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  width:100%;
+ 
+}
+button{
+
+  background-color:white;
+  border-radius:50%;
+
+  width:8vmin;
+  height:8vmin;
+}
+.icon{
+  font-weight:bold;
+  font-size:5vmin;
+
+  border:none;
+  color:black
+ }
+ .icon:hover{
+  color:red;
+ }
+ span{
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  font-size:5vmin;
+  
+  padding:10px;
+  
+
+ }
+ .logoContainer{
+
+  display:-webkit-box;
+
+  display:-ms-flexbox;
+
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding:20px;
+
+
+
+
+ }
+ .lettersContainer{
+
+  display:-webkit-box;
+
+  display:-ms-flexbox;
+
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+ }
+.photographContainer{
+
+  display:-webkit-box;
+
+  display:-ms-flexbox;
+
+  display:flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack:start;
+      -ms-flex-pack:start;
+          justify-content:start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top:5px;
+
+
+  
+}
+.photographContainer .imageContainer{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+-webkit-box-pack:center;
+    -ms-flex-pack:center;
+        justify-content:center;
+  width:100%;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+
+  
+}
+.photographContainer .imageContainer img{
+  display:block;
+  width:30%;
+ 
+  -o-object-fit: contain;
+ 
+     object-fit: contain;
+  padding: 1vw;
+}
